@@ -6,7 +6,7 @@ volumes:
 
 services:
   db:
-    image: postgres
+    image: postgres:latest
     restart: always
     environment:
       POSTGRES_DB: example
@@ -17,7 +17,7 @@ services:
     volumes:
       - database_data:/var/lib/postgresql/data
   api:
-    image: telegram-opencart-api
+    build: './telegram-opencart-api'
     expose:
       - 8080
     ports:
@@ -27,7 +27,7 @@ services:
     volumes:
       - ./api:/usr/src/app/
   go-bot:
-    image: telegram-opencart-bot
+    build: './telegram-opencart-bot'
     expose:
      - 443
      - 80
