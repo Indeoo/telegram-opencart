@@ -17,4 +17,3 @@ interactive communication and easy-to-use Admin/Seller functionality via app bot
 ```` 
 $ sh createImages.sh
 $ docker-compose up
-````4# telegram-opencart
