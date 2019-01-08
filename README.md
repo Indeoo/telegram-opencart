@@ -16,6 +16,6 @@ interactive communication and easy-to-use Admin/Seller functionality via app bot
 
 ## Start up guide:
 ```` 
-$ git clone --recursive -j8 git://github.com/indeoo/telegram-opencart.git
+$ git clone --recurse-submodules -j8 git://github.com/indeoo/telegram-opencart.git
 $ cd telegram-opencart
 $ docker-compose up
