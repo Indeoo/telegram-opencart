@@ -1,0 +1,6 @@
+[submodule "telegram-opencart-api"]
+	path = telegram-opencart-api
+	url = https://github.com/indeoo/telegram-opencart-api
+[submodule "telegram-opencart-bot"]
+	path = telegram-opencart-bot
+	url = https://github.com/onidoru/telegram-opencart-bot/
