@@ -1,5 +1,6 @@
 # Telegram OpenCart
 API : [![Build Status](https://travis-ci.com/Indeoo/telegram-opencart-api.svg?branch=master)](https://travis-ci.com/Indeoo/telegram-opencart-api)
+Bot: [![Build Status](https://travis-ci.com/onidoru/telegram-opencart-bot.svg?branch=master)](https://travis-ci.com/onidoru/telegram-opencart-bot)
 
 This project aims to build an open-source platform for building own Telegram-based
 bot-driven shop with rich support of microtransactions. Being a platform that provides
