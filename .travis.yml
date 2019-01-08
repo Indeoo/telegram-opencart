@@ -1,0 +1,8 @@
+language: generic
+services:
+  - docker
+before_install:
+  - service psql stop
+  - sh createImeages.sh
+install:
+  - docker-compose-up
