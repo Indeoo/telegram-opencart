@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/Indeoo/telegram-opencart.svg?branch=trunk)](https://travis-ci.org/Indeoo/telegram-opencart)
 # Telegram OpenCart
 
 This project aims to build an open-source platform for building own Telegram-based
