@@ -1,8 +1,10 @@
 language: generic
 services:
   - docker
+env:
+  - DOCKER_COMPOSE_VERSION=1.4.2
 before_install:
   - sudo /etc/init.d/postgresql stop
-  - sh createImeages.sh
+  - sh createImages.sh
 install:
   - docker-compose-up
