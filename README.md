@@ -16,5 +16,4 @@ interactive communication and easy-to-use Admin/Seller functionality via app bot
 
 ## Start up guide:
 ```` 
-$ sh createImages.sh
 $ docker-compose up
